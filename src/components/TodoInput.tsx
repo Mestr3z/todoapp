@@ -1,22 +1,22 @@
-import React, { useState, KeyboardEvent } from 'react';
-import { TextField, Button, Box } from '@mui/material';
+import React, { useState, KeyboardEvent } from "react";
+import { TextField, Button, Box } from "@mui/material";
 
 interface TodoInputProps {
   onAdd: (text: string) => void;
 }
 
 const TodoInput: React.FC<TodoInputProps> = ({ onAdd }) => {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState("");
 
   const handleAdd = () => {
     const trimmed = value.trim();
-    if (trimmed === '') return;
+    if (trimmed === "") return;
     onAdd(trimmed);
-    setValue('');
+    setValue("");
   };
 
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Enter') {
+    if (e.key === "Enter") {
       handleAdd();
     }
   };
