@@ -34,7 +34,7 @@
 
 - **React 18**  
 - **TypeScript**  
-- **Create React App** (с шаблоном TypeScript + Webpack “из коробки”)  
+- **Create React App** (с шаблоном TypeScript + Webpack)  
 - **Material UI (MUI)** — компоненты интерфейса (`@mui/material`, `@mui/icons-material`, `@emotion/react`, `@emotion/styled`)  
 - **uuid** — генерация уникальных ID для задач  
 - **Jest + React Testing Library** — unit- и интеграционные тесты  
