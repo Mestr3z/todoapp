@@ -33,7 +33,7 @@ const App: React.FC = () => {
   const filteredTodos = todos.filter((t) => {
     if (filter === "active") return !t.completed;
     if (filter === "completed") return t.completed;
-    return true; // all
+    return true;
   });
 
   const remainingCount = todos.filter((t) => !t.completed).length;
