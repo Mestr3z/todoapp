@@ -1,5 +1,5 @@
 # ToDo App
-
+[Link to the project](https://mestr3z.github.io/todoapp/)
 Простой ToDo-список, реализованный на React + TypeScript с использованием Material UI.  
 Позволяет добавлять, отмечать/снимать отметку о выполнении, фильтровать (все/невыполненные/выполненные) и удалять выполненные задачи.
 
@@ -43,3 +43,8 @@
 ## Запуск проекта
 
 ```bash
+git clone https://github.com/Mestr3z/todoapp.git
+cd todoapp
+npm install
+npm start
+npm test
